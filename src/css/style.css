@@ -1,0 +1,10 @@
+html {
+    min-height: 5em;
+    min-width: 12em;
+}
+
+.button {
+    border: none;
+    height: 3em;
+    width: 6em;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Geoguesser AI",
+    "version": "0.1",
+    "manifest_version": 3,
+
+    "description": "An AI to assist with geoguessr.com",
+
+    "action": {
+        "default_icon": "./src/icons/geoguessr.png",
+        "default_title": "Click to start | Geoguesser AI",
+        "default_popup": "./src/html/popup.html"
+    },
+    "background": {
+        "service_worker": "./src/js/background.js"
+    },
+    "permissions": ["scripting", "activeTab"]
+}
