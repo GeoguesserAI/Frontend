@@ -1,0 +1,14 @@
+html {
+    min-height: 5em;
+    min-width: 15em;
+}
+
+.input-field {
+    height: 2em;
+    width: 10em;
+}
+
+.send-button {
+    height: 2em;
+    width: 4em;
+}
